@@ -1,0 +1,204 @@
+body {
+	font-family: 'Roboto', sans-serif;/*为所有是body标签的设置字体*/
+	transition: all 0.5s;/*所有是body标签的过渡效果都是0.5s*/
+}
+a {
+	text-decoration: none!important;/*链接修饰，让其没有其他多余特效*/
+}
+#pn_input {
+	width: 30px;
+	text-align: center;
+}
+#imgAuto {
+	width: auto;/*图片长宽自适应*/
+	height: auto;
+	max-width:80%;
+	max-height: 250px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0px);
+}
+#imgBox{
+	width:350px;
+	height: 420px;
+}
+#divPage{
+	text-align:center;
+	margin-bottom: 30px;
+}
+/*设置菜单栏提示的格式*/
+.section-heading {/*凡是类section-heading都会有以下格式*/
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.section-heading .line-dec {/*凡是类section-heading下的类line-dec都会有以下格式*/
+	width: 30px;
+	height: 5px;
+	background-color: #3a8bcd;
+}
+.section-heading h1 {/*凡是类section-heading下的标签h1都会有以下格式*/
+	font-size: 22px;
+	font-weight: 700;
+	color: #1e1e1e;
+	margin-top: 15px;
+}
+/* 标题栏格式*/
+#pre-header {
+	background-color: #3a8bcd;
+	text-align: center;
+}
+#pre-header span {
+	color: #fff;
+	font-size: 15px;
+	padding: 10px 0px;
+	display: inline-block;
+}
+
+/*导航格式 */
+.navbar .navbar-brand {/*对有该属性对*/
+	text-align: center;
+	width: 100%;
+	position: relative;
+	padding: 25px 0px;
+}
+.bg-dark {
+	background-color: #fff!important;
+	border-bottom: 1px solid #eee;
+}
+#navbarResponsive {/*凡是ID是这个的，都有以下属性*/
+	z-index: 999;/*相当于空间概念上的z，该值越大，越会在别的元素的上面*/
+	position: absolute;
+	left: 50%;
+	top: 105px;
+	transform: translateX(-50%);/*把元素沿着横向的x轴移动自身宽度的50%，一般数值是-50%，因为这是从左侧0点开始左移自身宽度的50%*/
+}
+.navbar-dark .navbar-nav .nav-item {/*类navbar-dark包含类navbar-nav，而navbar-nav又包含nav-item*/
+	/*其实只是对navbar-dark下对navbar-nav下对nav-item定义下面对样式，前面两个并不会调用到，之所以这么写是因为
+	整个页面可能又多个nav-item，只能这么写进行区分*/
+	margin: 0px 15px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	color: #1e1e1e;
+	transition: all 0.5s;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+	color: #3a8bcd;
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: none;
+}
+.navbar-dark .navbar-toggler {
+	border-color: #3a8bcd;
+	background-color: #3a8bcd;	
+	height: 50px;
+	outline: none;
+}
+/* Featured Style */
+.featured-items {
+	margin-bottom: 70px;
+}
+.featured-item {
+	border-radius: 5px;
+	border: 1px solid #eee;
+	padding: 20px;
+	transition: all 0.5s;
+}
+.featured-item:hover {
+	opacity: 0.9;
+}
+.featured-item img {
+	width: 100%;
+}
+.featured-item h4 {
+	font-size: 17px;
+	font-weight: 700;
+	color: #1e1e1e;
+	margin-top: 15px;
+	transition: all 0.5s;
+}
+.featured-item:hover h4 {
+	color: #3a8bcd;
+}
+.featured-item h6 {
+	color: #3a8bcd;
+	font-size: 15px;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+/* Featured Page Style */
+.featured-page {
+	margin-top: 30px;
+	margin-bottom: 3px;
+}
+.featured-page .section-heading {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.featured-page #filters {
+	margin-top: 15px;
+	text-align: right;
+}
+.featured .featured-item {
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+.featured .featured-item h4 {
+	transition: all 0.5s;
+}
+.featured .featured-item:hover h4 {
+	color: #3a8bcd;
+}
+#filter button {/*对ID是filter对button有以下样式*/
+	outline: none;/*outline的默认值就是none，即不显示边界轮廓*/
+}
+#filter .btn-primary.focus,
+.btn-primary:focus {
+	color: #3a8bcd!important;
+	box-shadow: none!important;
+}
+#filters .btn-primary {
+	color: #1e1e1e;
+	border: none;
+	font-size: 20px;
+	font-weight: 700;
+	background-color: transparent;
+}
+/*页码格式*/
+.page-navigation ul {
+	text-align: center;
+	border-top: 1px solid #eee;
+	padding: 30px  0px 0px 0px;
+	margin: 0px 0px 80px 0px;
+}
+.page-navigation ul li {
+	display: inline-block;
+}
+.page-navigation ul li a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 38px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	font-weight: 700;
+	color: #1e1e1e;
+	font-size: 15px;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.page-navigation ul li a:hover,
+.page-navigation ul li.current-page a {
+	background-color: #3a8bcd;
+	border-color: #3a8bcd;
+	color: #fff;
+}
+

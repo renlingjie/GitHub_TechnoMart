@@ -1,0 +1,78 @@
+span{
+	margin-left: 14.7%;
+}
+.container {/*定义一个样式（类引用），凡是调用此样式，都会由以下属性*/
+ 	width: 50%;
+ 	margin: 0 auto;/*居中样式*/
+}
+		 
+ .container input {/*凡是调用样式的标签中，如果有子标签input，所有input标签都会有以下属性*/
+	width: 320px;
+	display: block;
+	height: 36px;
+	border: 0;
+	outline: 0;
+	padding: 6px 10px;
+	line-height: 24px;/*设置行间距：行高*/
+	margin: 0px auto;/*每一个input标签的外边框宽度*/
+	-webkit-transition: all 0s ease-in 1ms;/*兼容性考虑：谷歌浏览器前缀*/
+	-moz-transition: all 0s ease-in 1ms;/*兼容性考虑：火狐浏览器前缀*/
+	transition: all 0s ease-in 1ms;/*其实前面的两句可以不用，但是为了兼容性还是加上，主要是这句在起作用，它的作用
+	是当触发所有的变化时（其实就一个变化，那就是触发聚焦事件时input的宽由原来的320变成400），会产生一个1ms的渐变效果*/
+}
+		 
+.container input[type="text"] {/*input标签中的文本框属性设置*/
+	background-color: #FFFFFF;
+	font-size: 16px;
+	color: #50a3a2;
+}
+		 
+.container input[type='button'] {
+	display: block;
+	width: 120px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #666666;
+	background-color: #FFFFFF;
+	margin-left: 82px;/*提交按钮距离重制按钮左边边缘的距离*/
+	float :left;/*使之能够不用另起一行，而是按照从左到右，按照父标签宽度能放几个子标签宽度来排列*/
+}
+.container input[type='reset'] {
+	display: block;
+	width: 120px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #666666;
+	background-color: #FFFFFF;
+	margin-left: 250px;/*重制按钮距离div左边边缘的距离*/
+	float :left;/*使之能够不用另起一行，而是按照从左到右，按照父标签宽度能放几个子标签宽度来排列*/
+}
+		 
+.container input:focus {/*当触发聚焦事件，input标签宽度由320变成400*/
+	width: 400px;
+}
+a{/*html的超链接对象*/
+	color: black;/*颜色为天蓝*/
+	text-decoration: none;/*无文本修饰（可以如下划线、斜体之类）*/
+	margin-left: 40px;/*此行与下面两行，将之设置成块对象，不因为span另起一行，左边界距离span右边界100像素*/
+	float :left;
+	display: block;
+}
+a:hover{/*当鼠标悬停在html的超链接对象时*/
+	color: #F50;/*颜色变成橙红*/
+	text-decoration: underline;/*文本修饰为下划线*/
+}
+/*其他的input会有一个聚焦后变长的动画，但是两个小按钮如果由120编程400太难看了，让他们再默认为120*/
+.container input[type='button']:focus {
+	width: 120px;
+}
+.container input[type='reset']:focus {
+	width: 120px;
+}
+
+.spanStyle{
+	margin-left: 40%;
+	float :left;
+	display: block;
+	color: deeppink;
+}

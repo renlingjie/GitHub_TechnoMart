@@ -1,0 +1,101 @@
+
+.hide{
+    display: none;
+}
+.c1{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.c2{
+    background-color: lightgray;
+    position: fixed;
+    width: 400px;
+    height: 250px;
+    top:50%;
+    left: 50%;
+    z-index: 3;
+    margin-top: -150px;
+    margin-left: -200px;
+    border:1px solid red;
+    opacity: 1.5;
+}
+#modal p {
+    margin-left:80px;
+}
+.login-form {/*定义一个样式（类引用），凡是调用此样式，都会由以下属性*/
+    width: 90%;
+    margin-top: 25px;
+    float :left;/*让后面的超链接跟在其后*/
+    display: block;
+}
+
+.login-form input {/*凡是调用样式的标签中，如果有子标签input，所有input标签都会有以下属性*/
+    float :left;/*让后面的超链接跟在其后*/
+    display: block;
+    display: block;
+    height: 32px;
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    line-height: 24px;/*设置行间距：行高*/
+    margin: 0px auto;/*每一个input标签的外边框宽度*/
+    -webkit-transition: all 0s ease-in 1ms;/*兼容性考虑：谷歌浏览器前缀*/
+    -moz-transition: all 0s ease-in 1ms;/*兼容性考虑：火狐浏览器前缀*/
+    transition: all 0s ease-in 1ms;/*其实前面的两句可以不用，但是为了兼容性还是加上，主要是这句在起作用，它的作用
+	是当触发所有的变化时（两个变化，一个时是触发聚焦事件时input的宽由原来的320变成400，一个是悬停在button按钮事件），
+	宽度、字体大小等样式改变。都会产生一个1ms的渐变效果*/
+}
+
+.login-form input[type="text"] {/*input标签中的文本框属性设置*/
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #50a3a2;
+    width: 175px;
+}
+.login-form input[type="button"]{/*input标签中的文本框属性设置*/
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #50a3a2;
+    margin-left: 70px;
+    margin-right: -25px;
+    width: 110px;
+}
+.login-form input[type='button']:hover{/*悬停在button按钮上时，会有以下样式变化*/
+    display: block;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #666666;
+    background-color: #FFFFFF;
+}
+.login-form input[type="submit"]{/*input标签中的文本框属性设置*/
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #50a3a2;
+    margin-left: 70px;
+    margin-right: -25px;
+    width: 110px;
+}
+.login-form input[type='submit']:hover{/*悬停在button按钮上时，会有以下样式变化*/
+    display: block;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #666666;
+    background-color: #FFFFFF;
+}
+
+.login-form input:focus {/*当触发聚焦事件，input标签宽度由320变成400*/
+    width: 180px;
+    height: 35px;
+}
+.spanStyle{
+    float :left;/*让后面的超链接跟在其后*/
+    display: block;
+    margin-top: 7px;
+    margin-left: 50px;
+    font-size: 20px;
+}

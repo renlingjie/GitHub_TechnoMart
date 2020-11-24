@@ -1,0 +1,59 @@
+span{/*提示信息在外边框右边，在父元素框宽度乘16.35%（试出来的）*/
+	margin-left: 16.35%;
+}
+.container {/*定义一个样式（类引用），凡是调用此样式，都会由以下属性*/
+ 	width: 50%;
+ 	margin: 0 auto;/*居中样式*/
+}
+		 
+ .container input {/*凡是调用样式的标签中，如果有子标签input，所有input标签都会有以下属性*/
+	width: 320px;
+	display: block;
+	height: 36px;
+	border: 0;
+	outline: 0;
+	padding: 6px 10px;
+	line-height: 24px;/*设置行间距：行高*/
+	margin: 0px auto;/*每一个input标签的外边框宽度*/
+	-webkit-transition: all 0s ease-in 1ms;/*兼容性考虑：谷歌浏览器前缀*/
+	-moz-transition: all 0s ease-in 1ms;/*兼容性考虑：火狐浏览器前缀*/
+	transition: all 0s ease-in 1ms;/*其实前面的两句可以不用，但是为了兼容性还是加上，主要是这句在起作用，它的作用
+	是当触发所有的变化时（两个变化，一个时是触发聚焦事件时input的宽由原来的320变成400，一个是悬停在button按钮事件），
+	宽度、字体大小等样式改变。都会产生一个1ms的渐变效果*/
+}
+		 
+.container input[type="text"] {/*input标签中的文本框属性设置*/
+	background-color: #FFFFFF;
+	font-size: 16px;
+	color: #50a3a2;
+}
+		 
+.container input[type='button']:hover{/*悬停在button按钮上时，会有以下样式变化*/
+	display: block;
+	width: 400px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: #666666;
+	background-color: #FFFFFF;
+}
+		 
+.container input:focus {/*当触发聚焦事件，input标签宽度由320变成400*/
+	width: 400px;
+}
+a{/*html的超链接对象*/
+	color: black;/*颜色为天蓝*/
+	text-decoration: none;/*无文本修饰（可以如下划线、斜体之类）*/
+	margin-left: 40px;
+	float: left;
+	display: block;
+}
+a:hover{/*当鼠标悬停在html的超链接对象时*/
+	color: #F50;/*颜色变成橙红*/
+	text-decoration: underline;/*文本修饰为下划线*/
+}
+.spanStyle{
+	margin-left: 40%;
+	float :left;/*让后面的超链接跟在其后*/
+	display: block;
+	color: deeppink;
+}

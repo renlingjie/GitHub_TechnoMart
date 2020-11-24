@@ -1,0 +1,49 @@
+16-Nov-2020 20:09:28.045 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.55
+16-Nov-2020 20:09:28.054 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 22:10:54 UTC
+16-Nov-2020 20:09:28.054 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.55.0
+16-Nov-2020 20:09:28.054 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+16-Nov-2020 20:09:28.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.15.7
+16-Nov-2020 20:09:28.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+16-Nov-2020 20:09:28.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre
+16-Nov-2020 20:09:28.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_162-b12
+16-Nov-2020 20:09:28.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+16-Nov-2020 20:09:28.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55
+16-Nov-2020 20:09:28.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55
+16-Nov-2020 20:09:28.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/conf/logging.properties
+16-Nov-2020 20:09:28.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2020 20:09:28.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2020 20:09:28.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2020 20:09:28.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Nov-2020 20:09:28.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+16-Nov-2020 20:09:28.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55
+16-Nov-2020 20:09:28.057 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55
+16-Nov-2020 20:09:28.057 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/temp
+16-Nov-2020 20:09:28.057 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/renlingjie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+16-Nov-2020 20:09:28.226 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+16-Nov-2020 20:09:28.245 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Nov-2020 20:09:28.258 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 636 ms
+16-Nov-2020 20:09:28.285 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+16-Nov-2020 20:09:28.285 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+16-Nov-2020 20:09:28.293 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/docs]
+16-Nov-2020 20:09:28.503 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/docs]的部署已在[207]毫秒内完成
+16-Nov-2020 20:09:28.506 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/manager]
+16-Nov-2020 20:09:28.528 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/manager]的部署已在[22]毫秒内完成
+16-Nov-2020 20:09:28.528 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/examples]
+16-Nov-2020 20:09:28.709 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/examples]的部署已在[181]毫秒内完成
+16-Nov-2020 20:09:28.710 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/ROOT]
+16-Nov-2020 20:09:28.720 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/ROOT]的部署已在[10]毫秒内完成
+16-Nov-2020 20:09:28.720 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/host-manager]
+16-Nov-2020 20:09:28.734 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/renlingjie/Downloads/IDEAconfig/apache-tomcat-8.5.55/webapps/host-manager]的部署已在[14]毫秒内完成
+16-Nov-2020 20:09:28.736 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+16-Nov-2020 20:09:28.743 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 484 ms
+17-Nov-2020 10:03:48.534 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:05:23.297 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:08:52.165 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:13:01.235 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:27:25.067 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:41:27.633 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:46:31.370 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:47:00.756 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:56:03.406 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:56:52.083 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+17-Nov-2020 10:57:13.974 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
